@@ -1,0 +1,56 @@
+header {
+
+    position: sticky;
+    z-index: 500;
+
+    #header {
+
+        /* shape */
+        border-bottom: 16vh solid transparent;
+        border-left: 100vw solid #e09696;
+        height: 8vh;
+    }
+
+    nav {
+        top: -24vh;
+        position: relative;
+        display: flex;
+
+
+        img {
+            margin: 3vw;
+            height: 8vw;
+            width: 8vw;
+            border-radius: 50%;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            cursor: pointer;
+        }
+
+        #nav {
+            width: 100%;
+            margin-left: 10vw;
+
+            /* shape */
+            border-bottom: 16vh solid transparent;
+            border-left: 76.5vw solid yellow;
+            height: 8vh;
+        }
+
+        ul {
+            position: relative;
+            list-style: none;
+            left: -24vw;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+
+}
+
+section {
+    // height: 50rem;
+}
